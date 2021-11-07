@@ -1,0 +1,61 @@
+.bandeau {
+	padding-bottom: 1%;
+	padding-top: 1%;
+	background-color: #212121;
+	color: whitesmoke;
+	text-align: center;
+}
+
+
+input[type=text], select, textarea {	/* Pour pouvoir créee des zones de texte */
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #212121; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+}
+
+.Contacte_message {
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-top: 55px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+/* Pour faire apparaitre en haut a droite la croix pour fermer la nav*/
+.zoneMenu .croixMenu {		/* obliger de mettre les 2 class car sinon un ecrat see crée sur le coté */
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.zoneMenu {
+  height: 100%; /* 100% de la page */
+  width: 0; /* Taille du menu  */
+  position: fixed; /* Pour faire disparaitre sa place */
+  top: 0; /* Pour les mettre en haut a gauche (reset les marges) */
+  left: 0;
+  background-color: #212121;
+  overflow-x: hidden; /* Pour faire disparaitre la texte une fois le menu fermer */
+  padding-top: 60px;
+
+}
+
+.zoneMenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block; 
+}
+
+.ouvmenu {
+	position: absolute;
+	text-align: left;
+	padding-top: 0.3%;
+}
+
+

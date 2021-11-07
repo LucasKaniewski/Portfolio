@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KS Coiffure</title>
+    <link rel="icon" type="image/png" href="Img/Logo/Logo6.png" />
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="logoNav"><img src="Img/Logo/Logo6.png" href="index.html"></div>
+    </div>
+    <div id="navbar">
+      <a class="active" href="index.html">Accueil</a>
+      <a href="infoEntreprise.html">Informations</a>
+      <a href="tarif.html">Nos tarif</a>
+    </div>
+
+    <div id="slideshow">
+      <div class="slide-wrapper">
+        <div class="slide"><img src="Img/test1.jpg" height="720px" width="1920px"> </div>
+        <div class="slide"><img src="Img/test2.jpg" height="720px" width="1920px"></div>
+        <div class="slide"><img src="Img/test3.jpg" height="720px" width="1920px"></div>
+        <div class="slide"><img src="Img/test4.jpg" height="720px" width="1920px"></div>
+      </div>
+    </div>
+    <div class="divFlex">
+        <form class="formHoraire">
+          <div class="horairesC">
+            <p class="HSC"><b> Horaires du salon de coiffure</b></p>
+            <br>
+            <p>Lundi : Fermé </p>
+            <p>Mardi : 10h - 19 h </p>
+            <p>Mercredi : 10h - 19 h </p>
+            <p>Jeudi : 10h - 19 h </p>
+            <p>Vendredi : 10h - 19 h </p>
+            <p>Samedi : 10h - 19 h </p>
+            <p>Dimanche : Fermé </p>
+          </div>
+        </form>
+        <form class="formInfo">
+          <div class="horairesC">
+            <p class="HSC"><b>Informations de contact</b></p>
+            <br>
+            <p>Numéro : 09 50 37 86 74 </p>
+            <p>Adresse : 4 rue pasteur</p>
+            <p>Ville : Brunoy, 91800</p>
+          </div>
+        </form>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            }
+            else {
+              navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+  </body>
+</html>

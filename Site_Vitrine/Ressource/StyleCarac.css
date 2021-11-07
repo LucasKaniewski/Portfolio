@@ -1,0 +1,162 @@
+body{
+	 background-color : #f5f5f7;
+}
+@font-face{
+	font-family : "Helvo";
+	src:url("HelveticaNeue.ttf");
+}	
+@font-face{	
+	font-family : "Hel-Gras";
+	src:url("HelveticaNeue Medium.ttf");
+}
+.bandeau {
+	margin-top : -1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	background-color: #212121;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.btt {
+	/* 
+	text-decoration: underline; */
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: capitalize;
+	background-color: #212121;
+	color : whitesmoke; 
+}
+.contact {
+	text-align: right;
+	padding-right: 5%;
+	margin-top: -1.3%;
+	text-decoration : none;
+}
+.gif{
+	font-family : hel-gras;
+	font-size : 35px;
+	margin-left : 40%;
+	width : 20%;
+	margin-bottom: 2%;
+	
+}
+.text{
+	text-align : center;
+	background-color : white;
+	margin-left : 10%;
+	font-family : hel-gras;
+	font-size : 35px;
+	width : 40%;
+	border-radius : 50px;
+}
+.entre{
+	font-family : hel-gras;
+	font-size : 35px;
+	float : right;
+	background-color : white;
+	height : 40%;
+	width : 40%;
+	margin-top : -25%;
+	margin-right : 5%;
+	border-radius : 50px;
+}
+.petit{
+	font-family : Arial;
+	font-size : 20px;
+	margin-right : auto;
+}
+.textp2{
+	background-color : white;
+	margin-top : 5%;
+	margin-left : 10%;
+	float : left;
+	width : 40%;
+	height : 37%;
+	border-radius : 50px;
+	font-size : 40px;
+	font-family : hel-gras;
+	text-align : center;
+}
+
+.camera{
+	margin-left : 60%;
+}
+.oui{
+	margin-top : 40%;
+}
+.colorchange{
+	color : white;
+	margin-top : 5%;
+	height : auto;
+	width : auto;
+	text-align : center;
+	background-color : rgba(0,0,0,0.9);
+	font-size : 30px;
+	font-family : hel-gras;
+}
+.dessin img{
+	margin : 5%;
+	width : 35%;
+	height : 35%;
+	font-size : 35px;
+	border-radius : 50px;
+}
+.fin {
+	background-color : white;
+	margin-top : 5%;
+	height : auto;
+	width : auto;
+	text-align : center;
+	font-size : 30px;
+	font-family : Arial;
+	border-radius : 100px;
+}
+.fin img{
+	margin-top : 5%;
+	height : 80%;
+	width : 80%;
+	text-align : center;
+	font-size : 30px;
+	font-family : Arial;
+}
+
+.logoMenu {
+	width: 25%;
+	left: 0;
+}
+/* Pour faire apparaitre en haut a droite la croix pour fermer la nav*/
+.zoneMenu .croixMenu {		/* obliger de mettre les 2 class car sinon un ecrat see crée sur le coté */
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.zoneMenu {
+  height: 100%; /* 100% de la page */
+  width: 0; /* Taille du menu  */
+  position: fixed; /* Pour faire disparaitre sa place */
+  top: 0; /* Pour les mettre en haut a gauche (reset les marges) */
+  left: 0;
+  background-color: #212121;
+  overflow-x: hidden; /* Pour faire disparaitre la texte une fois le menu fermer */
+  padding-top: 60px;
+
+}
+
+.zoneMenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block; 
+}
+
+.ouvmenu {
+	position: absolute;
+	text-align: left;
+	padding-top: 0.3%;
+}
+

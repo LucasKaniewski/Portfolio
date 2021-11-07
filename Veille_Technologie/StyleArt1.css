@@ -1,0 +1,106 @@
+.fond {
+	background-color: #857676;
+}
+
+.tete { 
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 1%;
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	background-color: #DCD2D2;
+}
+
+.txt_tete {
+	font-size: 195%;
+	text-decoration: underline;
+	padding-left: 38.5%;
+	padding-right: auto;
+}
+
+.titre {
+	position: absolute;
+	margin-top: -30%;
+	margin-left: 8.2%;
+	font-family: Arial;
+	font-size: 250%;
+	text-decoration: underline;
+}
+
+.btt_1 {
+	margin-left: 17%;
+	text-decoration: underline;
+	cursor: pointer;
+	text-transform: capitalize;
+	background-color: #DCD2D2;
+}
+
+.btt_2 {
+	margin-left: 17%;
+	text-decoration: underline;
+	cursor: pointer;
+	text-transform: capitalize;
+	background-color: #DCD2D2;
+}
+
+.btt_3 {
+	margin-left: 17%;
+	text-decoration: underline;
+	cursor: pointer;
+	text-transform: capitalize;
+	background-color: #DCD2D2;
+}
+
+.btt_4 {
+	margin-left: 17%;
+	text-decoration: underline;
+	cursor: pointer;
+	text-transform: capitalize;
+	background-color: #DCD2D2;
+}
+
+.img_p {
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 30%;
+}
+
+.titre_txt { /* Titre tout en haut du cadre */
+	font-family: Arial;
+	font-size: 155%;
+	text-decoration: underline;
+}
+.txt_art1 { /* Texte du résumé */
+	font-family: Arial;
+}
+
+.cadre {
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 4%;
+	background-color: #DCD2D2;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+}
+
+.date { /* Date de l'article */
+	font-family: Arial;
+	margin-left: 90%;
+	padding-top: -2%;
+}
+
+.source { /* Source lien */
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	margin-top: 5%;
+}

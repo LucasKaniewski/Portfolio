@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title> Page Contacte </title>
+		<link rel="stylesheet" media="screen" type="text/css" title="Design" href="StyleContacte.css">
+		<script type="text/javascript" src="JsMenu.js"></script> <!-- Relier le js  -->
+		<link rel="icon" type="image/png" href="logo.png">
+	</head>
+	
+	<body>
+		<div class="bandeau"> 
+				<span onclick="ouverture()"> 
+					<div class="ouvmenu" >
+						Menu
+					</div>
+				</span>
+				Page Contacte
+				<div id="mySidenav" class="zoneMenu">
+					<a href="javascript:void(0)" class="croixMenu" onclick="fermeture()">&times;</a>
+					<a href="PresentationApple.html">Présentation</a>
+					<a href="Evolution.html">Evolution</a>
+					<a href="Caracteristiques.html">Caractéristiques</a>
+					<a href="Contacte.html">Contactez-nous</a>
+				</div>
+			</div>
+
+        <div class="Contacte_message">
+			<label>Nom</label>
+			<input type="text" placeholder="Entrez votre nom">
+			<label>Prenom</label>
+			<input type="text" placeholder="Entrez votre Prenom">
+			<label>Ville</label>
+			<input type="text" placeholder="Entrez votre Ville">
+			<label>Mail</label>
+			<input type="text" placeholder="Entrez votre Mail">
+			<label>Objet</label>
+			<input type="text" placeholder="Entrez l'objet">
+			<label>Sujet</label>
+			<textarea placeholder="Entrez votre message " style="height:200px"></textarea> <!-- Taille de la case -->
+			<input type="submit" value="Envoyer le message">
+		</div>
+
+	</body>
+
+</html>

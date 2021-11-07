@@ -1,0 +1,121 @@
+body{
+	background-size: cover;
+	
+	background-repeat : no-repeat;
+}
+.o{
+	background-color : rgba(0,0,255,0.3);
+}
+.button:hover{
+	transform : scale(1.25);
+}
+.button{
+	transition : transform 2s;
+	width : 200px;
+	height : 25px;
+	
+}
+.texte{
+	font-family : Hel-Gras;
+}
+
+.oui{
+	margin-top : 50%;
+
+}
+.text1{
+	float : left;
+	margin-top : -30%;
+	margin-left : 15%;
+	width : 35%;
+	font-size : 25px;
+	font-family : sans-serif;
+}
+.text{
+	
+	margin-left : 60%;
+	font-family : sans-serif;
+	height : 15%;
+	font-size : 20px;
+}
+.image{
+	height : 100%;
+	width : 100%;
+	display : block;
+}
+.imageBas{
+	margin-top : 25%;
+	margin-left : 58%;
+	float : right;
+}
+
+.carac{
+	background-color : none;
+	text-align : center;
+	margin-top : 5%;
+	margin-left : auto;
+	margin-right: auto;
+	width : 70%;
+	height : 50%;
+	font-size : 50px;
+	font-family : Helvo;
+	color : #f5f5f7;
+}
+@keyframes zoom{
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+@font-face{
+	font-family : "Helvo";
+	src:url("HelveticaNeue.ttf");
+}
+
+@keyframes slide {
+  0%, 35%, 100% {
+    transform: translate(0,0);
+  }
+  55%, 90% {
+    transform: translate(0,-50%);
+  }
+}
+
+.logoMenu {
+	width: 25%;
+	left: 0;
+}
+/* Pour faire apparaitre en haut a droite la croix pour fermer la nav*/
+.zoneMenu .croixMenu {		/* obliger de mettre les 2 class car sinon un ecrat see crée sur le coté */
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.zoneMenu {
+  height: 100%; /* 100% de la page */
+  width: 0; /* Taille du menu  */
+  position: fixed; /* Pour faire disparaitre sa place */
+  top: 0; /* Pour les mettre en haut a gauche (reset les marges) */
+  left: 0;
+  background-color: #212121;
+  overflow-x: hidden; /* Pour faire disparaitre la texte une fois le menu fermer */
+  padding-top: 60px;
+
+}
+
+.zoneMenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block; 
+}
+

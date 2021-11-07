@@ -1,0 +1,239 @@
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .divFlex {
+    display: flex;
+  }
+
+/* ==================== Nav Bar ==================== */
+
+
+  .header {
+      background-color: #ffffff;
+      padding: 5px;
+      text-align: center;
+      height: 3%;
+  }
+
+  #navbar {
+      overflow: hidden;
+      background-color: #1e272e;
+      
+  }
+
+  #navbar a {
+      float: left;
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: 23%;
+  }
+
+  #navbar a:hover {
+      border-bottom: 2px solid  #d2dae2;
+  }
+
+  #navbar a.active {
+      border-bottom: 2px solid  #ffffff;
+      color: white;
+  }
+
+  .content {
+      padding: 16px;
+  }
+
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+
+  .sticky + .content {
+      padding-top: 60px;
+  }
+
+  .logoNav {
+    width: 8%;
+    margin-left: 48%;
+  }
+
+  .logoNav img {
+    width: 100%;
+  }
+
+/* ==================== Slide Accueil ==================== */
+
+  #slideshow {
+      overflow: hidden;
+      height: 720px;
+      width: 1920px;
+      margin: 0 auto;
+  }
+
+  .slide-wrapper {
+      width: 7680px;
+      -webkit-animation: slide 18s ease infinite;
+  }
+
+  .slide {
+    float: left;
+    height: 720px;
+    width: 1920px;
+  }
+
+  .slide-number {
+    color: black;
+    text-align: center;
+    font-size: 10em;
+  }
+
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1920px;}
+    50% {margin-left: -1920px;}
+    60% {margin-left: -3840px;}
+    70% {margin-left: -3840px;}
+    80% {margin-left: -5760px;}
+    90% {margin-left: -5760px;}
+  }
+
+  .hr{
+    color: gray;
+  }
+
+/* ==================== Fin Slide Accueil ==================== */
+
+/* ==================== Page D'Accueil ==================== */
+
+  .HSC {
+    font-size: 20px;
+  }
+
+  /* Affichage Horaires */
+
+  .formHoraire {
+    width:25%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 1px solid #7f8fa6;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+  }
+
+  .horairesC {
+    text-align: center;
+  }
+
+  /* Fin Affichage Horaires */
+
+  .formInfo {
+    width:25%;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 1px solid #7f8fa6;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+  }
+
+
+/* ==================== Fin Page D'Accueil ==================== */
+
+/* ==================== Page Informations ==================== */
+
+/* Gestion texte Informations */
+
+  .styleInfo {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .fontTitleInfo {
+    text-align: center;
+    font-size: 22px;
+  }
+
+/* Fin Gestion texte Informations */
+
+  .dimensionImg {
+    height: 720px;
+    width: 1920px;
+  }
+  
+/* ==================== Fin Informations ==================== */
+
+/* ==================== Formulaire de tarif ==================== */
+
+  .formContacte {
+      width:100%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 5%;
+      border: 1px solid #7f8fa6;
+      background: #fff;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.56), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      border-radius: 10px;
+  }
+
+  .container {
+      padding-bottom: 10px;
+      text-align: left;
+      width: 70%;
+      margin-left: 15%;
+  }
+
+  .container p {
+    text-align: center;
+  }
+
+  input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+  }
+
+  .inputMessage {
+    height: 400px;
+  }
+
+  input[type=submit] {
+      background-color: #7f8fa6;
+      color: black;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+  }
+
+  input[type=submit]:hover {
+      background-color: white;
+      color: #000000;
+      border: 1px solid #000000;
+  }
+
+  .pContact {
+    font-size: 20px;
+  }
+
+  .tarif {
+    text-align: center;    
+  }
+
+  .TarifT {
+    font-size: 20px;
+  }
+/* ==================== Fin Formulaire de tarif ==================== */

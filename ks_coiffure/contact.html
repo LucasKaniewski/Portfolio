@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KS Coiffure</title>
+    <link rel="icon" type="image/png" href="Img/Logo/Logo6.png" />
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="logoNav"><img src="Img/Logo/Logo6.png" href="index.html"></div>
+    </div>
+    <div id="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="infoEntreprise.html">Informations</a>
+      <a class="active" href="tarif.html">Nos tarif</a>
+    </div>
+
+    <div class="container">
+        <form class="formTarif">
+          <div class="tarif">
+            <p class="TarifT"><b>Nos tarif pour nos coiffures</b></p>    
+            </br>
+            <p>Coloration , Shampoing, Coupe & Brushing - Cheveux longs</p>    
+                Durée : 2h</br>
+                A partir de 90€</br>
+            <p>Coloration , Shampoing, Coupe & Brushing - Cheveux mi-longs</p>  
+                Durée : 1h30</br>
+                A partir de 90€</br>
+            <p>Shampoing, Coupe & Brushing - Cheveux courts</p> 
+                Durée : 30min</br>
+                A partir de 34€</br>
+            <p>Shampoing, Coupe & Brushing - Cheveux longs</p>
+                Durée : 1h</br>
+                A partir de 49€</br>
+            <p>Coloration, Shampoing, Coupe & Brushing - Cheveux courts</p>
+                Durée : 1h</br>
+                A partir de 49€</br>
+            <p>Shampoing, Coupe & Brushing - Cheveux mi-longs</p>
+                Durée : 1h</br>
+                A partir de 49€</br>
+          </div>
+        </form>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            } else {
+            navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+  </body>
+</html>

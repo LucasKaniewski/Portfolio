@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/css.css"/>
+    <script src="javascript/formulaire.js"></script>
+		<link rel="icon" type="image/png" href="css/images/icon_fourmi.png"/>
+    <title>Login</title>
+  </head>
+  <body class="fond">
+    <!-- ================== Menu ================== -->
+    <nav>
+  		<div class="barrenav">
+  			<ul class="nav_ul">
+          <li><img src="css/images/logo.png"/></li>
+  				<li><a href="accueil.html">Accueil</a></li>
+  				<li><a href="fourmis.html">Fourmis</a></li>
+  				<li><a href="nourriture.html">Nourritures</a></li>
+          <li><a href="fourmilliere.html">Fourmilières</a></li>
+  				<li><a href="catalogue.html">Catalogue</a></li>
+  				<li><a href="panier.html">Panier</a></li>
+  			</ul>
+  		</div>
+    </nav>
+    <br><br><br>
+    <i><b><u><h1 class="nom_site">Identifiez-vous / Inscrivez-vous</h1></u></b></i>
+    <br><br><br>
+    <div class="login">
+      <fieldset>
+        <legend>Connection</legend>
+        <form action="#" method="POST">
+          <br>
+          <div>
+            <div>Nom d'utilisateur :</div>
+            <input type="text" name="utilisateur" size="40">
+          </div>
+          <br>
+          <div>
+            <div>Mot de Passe :</div>
+            <input type="password" name="password" size="40">
+          </div>
+          <br>
+          <div>
+          	<button type="submit" >Connection</button>
+  				</div>
+  			</form>
+      </fieldset>
+      <br><br><br>
+      <fieldset>
+        <legend>Inscription</legend>
+        <form action="#" method="POST">
+          <br>
+          <div>
+    				<div>E-mail :</div>
+    				<input type="email" name="mail" size="40">
+    			</div>
+    			<br>
+          <div>
+            <div>Nom d'utilisateur :</div>
+            <input type="text" name="user" size="40">
+          </div>
+          <br>
+          <div>
+            <div>Mot de Passe :</div>
+            <input type="password" name="password" size="40">
+          </div>
+          <br>
+    			<div>
+    				<button type="submit">Terminer L'inscription</button>
+    			</div>
+          <br>
+          <div>
+            <input type="checkbox" id="check1" onClick="gBox('check1'); return false;" /> Vous acceptez d'entrer dans la fourmilière
+            <br>
+            (Acceptez nos conditions générales d'utilisations)
+          </div>
+    		</form>
+      </fieldset>
+    </div>
+    <br><br><br><br><br>
+    <h3><i><u>Contactez-nous :</u></i> antsplace@gmail.com</h3>
+    <br><br><br>
+  </body>
+</html>
