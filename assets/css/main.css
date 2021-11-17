@@ -2926,7 +2926,7 @@ body.is-menu-visible #menu {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #ff4757;
+  background-color: purple;
   color: whitesmoke;
   font-size: 18px;
   position: relative;
