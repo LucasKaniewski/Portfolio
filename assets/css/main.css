@@ -2882,12 +2882,12 @@ body.is-menu-visible #menu {
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  left: -5px;
 }
 
 /* Place the container to the right */
 .right {
-  left: 50%;
+  left: 50.3%;
 }
 
 /* Add arrows to the left container (pointing right) */
