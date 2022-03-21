@@ -2949,10 +2949,18 @@ body.is-menu-visible #menu {
   color: whitesmoke;
 }
 
-.binder img { 
+.certif img { 
   height: auto;
   max-height: 100%;
-  width: 50%;
+  width: 40%;
+}
+
+.binder img { 
+  margin-left: 1%;
+  padding-left: 3%;
+  height: auto;
+  max-height: 100%;
+  width: 30%;
 }
 
 .titrePres {
