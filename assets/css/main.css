@@ -2963,6 +2963,20 @@ body.is-menu-visible #menu {
   width: 30%;
 }
 
+.ant img { 
+  padding-left: 3%;
+  height: auto;
+  max-height: 100%;
+  width: 60%;
+}
+
+.gsb2 img { 
+  padding-left: 3%;
+  height: auto;
+  max-height: 100%;
+  width: 40%;
+}
+
 .titrePres {
   color: #ce1b28;
   font-weight: bold;
