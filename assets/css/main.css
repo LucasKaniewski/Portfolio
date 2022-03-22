@@ -2989,6 +2989,13 @@ body.is-menu-visible #menu {
   font-weight: bold;
 }
 
+.gsb3 img {
+  padding-left: 3%;
+  height: auto;
+  max-height: 100%;
+  width: 40%;
+}
+
 /* Slide Présen,tation 
 
 #slider {
